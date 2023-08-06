@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: -4px 4px 0 rgb(0, 0, 0);
+    position: static;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+
+.footer h3 {
+    margin: 0.2rem;
+}
+
+.footer-note {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+    font-size: 2rem;
+}
