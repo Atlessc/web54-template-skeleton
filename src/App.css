@@ -4,30 +4,32 @@
   text-align: center;
   font-family: monospace;
   font-size: 16px;
+  position: relative;
 }
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 350px;
 }
 
 .Nav {
-  width: 95%;
+  width: 98%;
   height: 50px;
   display: flex;
-  position: fixed;
+  position: static;
   top: 0.4rem;
   align-items: center;
   z-index: 999;
+  position: relative;
 }
 
 .body {
-  width: 99%;
-  height: 100%;
-  margin: 1rem 0;
+  position: relative;
+  width: 95%;
+  margin: -1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
